@@ -1,9 +1,8 @@
 var button15 = document.getElementById('15');
 var button20 = document.getElementById('20');
 var button25 = document.getElementById('25');
-var roundUp = function(yeet) {
-    Math.round(yeet*100)/100;
-}
+
+// define functions for all 3 buttons (15%,20%,25%)
 var tip15 = function() {
     var list = document.getElementsByTagName('ul')[0];
     list.removeChild(list.childNodes[0]);
